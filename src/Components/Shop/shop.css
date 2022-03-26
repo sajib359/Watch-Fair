@@ -31,24 +31,16 @@
     font-weight: 700;
     color: forestgreen;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .product-container{
-        display: grid;
         grid-template-columns: 1fr;
        
         
     }
     .shop-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 50px;
-    }
-    .choose-btn{
-        padding: 10px;
         
-        width: 100%;
-        font-size: 20px;
-        font-weight: 700;
-        color: forestgreen;
+        grid-template-columns: 1fr;
+        
     }
+    
 }
