@@ -14,8 +14,23 @@ const Shop = () => {
 
     const handleButton =(product)=>{
         console.log(product);
-       const newCart =[...cart ,product];
-        setCart(newCart);
+        const newProduct =product;
+        let productCart = [];
+        if(cart.includes(newProduct)){
+            setCart(cart)
+        }
+        else{
+            productCart=[...cart , newProduct];
+
+            if(productCart.length===5){
+               alert('Same product Not Allowed');
+
+            }
+            else{
+                setCart(productCart);
+            }
+        }
+       
     }
     return ( 
         <div className="shop-container">
@@ -31,8 +46,24 @@ const Shop = () => {
                }
            </div>
            <div className="cart-container">
-              <Cart cart={cart}></Cart>
+               <div>
+               <h2 className='cart-head'>Your order Details</h2>
+
+                    {
+                        cart.map(selectCart=><Cart cart={selectCart}></Cart>)
+                    }
+               </div>
+               <div>
+               <button className='choose-btn'> Choose One</button>
+               </div>
+               <div>
+               <button className='choose-btn'>Again Choose</button>
+               </div>
+           
+           
+             
            </div>
+           
         </div>
     );
 };

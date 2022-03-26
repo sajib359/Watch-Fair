@@ -1,0 +1,15 @@
+.cart{
+    position: sticky;
+    top: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart img{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+}
+.cart-name{
+    margin-left: 15px;
+}

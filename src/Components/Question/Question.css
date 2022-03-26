@@ -1,0 +1,26 @@
+.question-answer{
+    background-color: black;
+    color: gold;
+}
+.question-cart{
+    display: flex;
+    gap: 20px;
+    
+}
+.questionAnswer{
+    width: 30%;
+    height: 500px;
+    padding: 15px;
+    border: 2px solid green;
+    box-shadow: aliceblue 10px;
+}
+.questionAnswer img{
+    margin-left: 100px;
+    
+}
+.question-head{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}

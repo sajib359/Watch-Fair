@@ -18,3 +18,11 @@
     font-weight: 700px;
     color: chartreuse;
 }
+.choose-btn{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
