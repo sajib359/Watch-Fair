@@ -5,7 +5,7 @@
       "name": "Apple Watch Series 6 (GPS)",
       "Band": "Apple",
       "price": 50999,
-      "ReleseDate": 2020 September 15
+      "ReleseDate": "2020 September 15",
       "ratings": 8.5,
       "img": "https://images1.pricecheck.co.za/images/objects/hash/product/1a0/8f1/5d7/image_big_202622904.jpg?1617057450"
     },
@@ -15,7 +15,7 @@
       "name": "Apple Watch Series 5",
       "Band": "Apple",
       "price": 46999,
-      "ReleseDate": 2019, September,
+      "ReleseDate": "2019 September",
       "ratings": 8,
       "img": "https://ewaresolutions.co.ke/wp-content/uploads/2019/11/series-5.jpg"
     },
@@ -25,7 +25,7 @@
       "name": "Apple Watch Series 4",
       "Band": "Apple",
       "price": 42999,
-      "ReleseDate":	2018 September,
+      "ReleseDate":	"2018 September",
       "ratings": 7,
       "img": "https://www.rmonlinebd.com/image/cache/catalog/%20Gadget/Apple%20Watch/mu6d2ll-a-2-500x500-550x550.jpg"
     },
@@ -35,7 +35,7 @@
       "name": "Naviforce Watch NF9163",
       "Band": "Naviforce",
       "price":2500,
-      "ReleseDate": 2021,
+      "ReleseDate":2021,
       "ratings": 9,
       "img": "https://cdn.shopify.com/s/files/1/0004/0629/0441/products/WW1043NaviforceNF9163MWatch_1_600x.png?v=1629647562"
     },
