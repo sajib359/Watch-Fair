@@ -18,11 +18,14 @@
 .product-card button{
     bottom: 0;
     position: absolute;
-    padding: 10px;
-    font-size: 15px;
+    /* padding: px; */
+    
     width: 82%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .product-card p{
     font-size: 20px;
@@ -31,4 +34,8 @@
 }
 .span-class{
     color: blue;
+}
+.button-text{
+    font-size: 15px;
+    margin-right: 10px;    
 }
