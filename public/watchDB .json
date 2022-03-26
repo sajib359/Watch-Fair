@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "category": "Smart Watch",
+      "name": "Apple Watch Series 6 (GPS)",
+      "Band": "Apple",
+      "price": 50999,
+      "ReleseDate": 2020 September 15
+      "ratings": 8.5,
+      "img": "https://images1.pricecheck.co.za/images/objects/hash/product/1a0/8f1/5d7/image_big_202622904.jpg?1617057450"
+    },
+    {
+      "id": 2,
+      "category": "Smart Watch",
+      "name": "Apple Watch Series 5",
+      "Band": "Apple",
+      "price": 46999,
+      "ReleseDate": 2019, September,
+      "ratings": 8,
+      "img": "https://ewaresolutions.co.ke/wp-content/uploads/2019/11/series-5.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Smart Watch",
+      "name": "Apple Watch Series 4",
+      "Band": "Apple",
+      "price": 42999,
+      "ReleseDate":	2018 September,
+      "ratings": 7,
+      "img": "https://www.rmonlinebd.com/image/cache/catalog/%20Gadget/Apple%20Watch/mu6d2ll-a-2-500x500-550x550.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Casual Watch",
+      "name": "Naviforce Watch NF9163",
+      "Band": "Naviforce",
+      "price":2500,
+      "ReleseDate": 2021,
+      "ratings": 9,
+      "img": "https://cdn.shopify.com/s/files/1/0004/0629/0441/products/WW1043NaviforceNF9163MWatch_1_600x.png?v=1629647562"
+    },
+    {
+      "id": 5,
+      "category": "Casual Watch for women",
+      "name": "NAVIFORCE 5008",
+      "Band": "Naviforce",
+      "price":2000,
+      "ReleseDate": 2021,
+      "ratings": 9.2,
+      "img": "https://watchhuntkenya.co.ke/3315-thickbox_default/naviforce-5008.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Casual Watch",
+      "name": "Naviforce Watch NF9175",
+      "Band": "Naviforce",
+      "price":3000,
+      "ReleseDate": 2021,
+      "ratings": 8,
+      "img": "https://sc04.alicdn.com/kf/Hb9d39cae86f14080889ce91ea77dce82l.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Smart Watch",
+      "name": "Amazfit GTR 3 Smartwatch",
+      "Band": "Xiaomi",
+      "price":13000,
+      "ReleseDate": 2021,
+      "ratings": 9,
+      "img": "https://www.techlandbd.com/image/cache/catalog/Smart%20Watch/Amazfit/GTR%203/Amazfit%20GTR%203-01-1000x1000.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Smart Watch",
+      "name": "Amazfit GTR 2 AMOLED Smartwatch",
+      "Band": "Xiaomi",
+      "price":13000,
+      "ReleseDate": 2021,
+      "ratings": 9,
+      "img": "https://www.skyland.com.bd/wp-content/uploads/amazfit-gtr-2.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Smart Watch",
+      "name": "Amazfit Bip U Pro GPS Smartwatch",
+      "Band": "Xiaomi",
+      "price":6000,
+      "ReleseDate": 2021,
+      "ratings": 9.5,
+      "img": "https://www.skyland.com.bd/wp-content/uploads/amazfit-bip-u-pro-2.jpg"
+    },
+  ]
