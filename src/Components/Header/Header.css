@@ -14,3 +14,12 @@ h1{
     font-style: oblique;
     text-align: center;
 }
+.selected{
+    background-color:skyblue;
+    color: blue;
+    font-size:xx-large;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}

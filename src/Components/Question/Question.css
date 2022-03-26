@@ -9,10 +9,10 @@
 }
 .questionAnswer{
     width: 30%;
-    height: 500px;
+    height: 550px;
     padding: 15px;
     border: 2px solid green;
-    box-shadow: aliceblue 10px;
+    box-shadow: 5px 10px;
 }
 .questionAnswer img{
     margin-left: 100px;

@@ -1,9 +1,8 @@
 .cart{
-    position: sticky;
-    top: 0;
+    
     display:flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content:space-between;
 }
 .cart img{
     width: 70px;
@@ -11,5 +10,16 @@
     border-radius: 25px;
 }
 .cart-name{
-    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: black;
+    color: goldenrod;
+    padding: 5px;
+}
+.selected-name{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: black;
+    color: goldenrod;
+    padding: 5px;
 }

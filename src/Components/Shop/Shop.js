@@ -32,10 +32,26 @@ const Shop = () => {
         }
        
     }
+    const chooseOne=(selectOne)=>{
+        const randomKey = Math.floor(Math.random()*(4-0+0)+0);
+        const chooseValue= selectOne[randomKey].name;
+        document.getElementById('selectProduct').innerHTML=`
+        <div class = "selected-name">
+        <h2>Your Selected product Is:</h2>
+            <h3>${chooseValue}</h3>
+        </div>
+        `
+    }
+    const againChoose=()=>{
+        setCart([]);
+        document.getElementById('selectProduct').innerHTML=' ';
+    }
     return ( 
+        
         <div className="shop-container">
            
            <div className="product-container">
+               
               
                {
                    products.map(product => <Product 
@@ -47,22 +63,25 @@ const Shop = () => {
            </div>
            <div className="cart-container">
                <div>
-               <h2 className='cart-head'>Your order Details</h2>
+               <h2 className='cart-head'>Choose Your Product From Cart</h2>
 
                     {
                         cart.map(selectCart=><Cart cart={selectCart}></Cart>)
                     }
                </div>
                <div>
-               <button className='choose-btn'> Choose One</button>
+               <button onClick={()=>chooseOne(cart)} className='choose-btn'> Choose One</button>
                </div>
                <div>
-               <button className='choose-btn'>Again Choose</button>
+               <button onClick={againChoose} className='choose-btn'>Again Choose</button>
                </div>
            
-           
+               <div id='selectProduct'>
+                    
+               </div>
              
            </div>
+           
            
         </div>
     );
